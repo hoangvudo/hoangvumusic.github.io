@@ -1,0 +1,273 @@
+/* reset code  */
+body, h1,h2,h3,h4,h5,h6, ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+    /* thuoc tinh dung chung  */
+.bg-main {
+        background: linear-gradient(75deg, #4f1bc5, #7b17c5) !important;
+}
+
+.box {
+    padding: 0px 15px;
+}
+
+        /* xac dinh class de su dung  */
+        /* desktop  */
+
+@media screen and (min-width :768px) {
+    .w30 {width: 30%;}
+    .w25 {width: 25%;}
+    .w33 {width: 33%;}
+    .w40 {width: 40%;}
+    .w50 {width: 50%;}
+    .w60 {width: 60%;}
+    .w70 {width: 70%;}
+    .w20 {width: 20%;}
+    .w10 {width: 10%;}
+    .w5 {width: 5%;}
+    .container {width: 1200px;margin: 0 auto;}
+    .left {float: left;}
+    .right {float: right;}
+    .clear {clear: both;}
+    .text-center {text-align: center;}
+}
+#header .box-content img {
+    margin-top: 20px;
+    width: 169px;
+    margin-left: -100px;
+}
+#header .box ul li {
+    float: left;
+    padding: 18px;
+    margin-top: 20px;
+    list-style: none;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 17px;
+}
+#header .box ul li a {
+    text-decoration: none;
+    color: black;
+}
+#header .box ul li a:hover {
+    color: #668090;
+}
+#header .img img {
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 3px
+}
+#header .nav {
+    margin-left: 19px;
+}
+.hotline {
+    margin-top: 8px;
+    margin-left: 20px;
+    padding: 2px;
+    line-height: 36px;
+}
+input[type="text"] {
+    width: 296px;
+    height: 23px;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: aqua;
+}
+.box-text {
+    margin-top: 34px;
+}
+button.search {
+    height: 28px;
+    border-radius: 7px;
+    margin-left: -17px;
+    width: 39px;
+    color: blue;
+    background-color: aqua;
+}
+#header {
+    background: rgb(245,244,201);
+    background: linear-gradient(0deg, rgba(245,244,201,1) 0%, rgba(214,214,214,1) 100%);
+}
+.nav-list {
+    margin-left: -154px;
+    line-height: 68px;
+    color: white;
+    padding-left: 18px;
+}
+.bxh-content {
+    line-height: 60px;
+    margin-top: -4px;
+    margin-left: 49px;
+    color: white;
+}
+.img img {
+    margin-top: 26px;
+    width: 92%;
+    margin-left: 39px 
+}
+.img-mucsic img {
+    margin-top: 44px;
+    width: 74%;
+    border-radius: 14px;
+    margin-left: 95px;
+}
+.play-music img {
+    width: 243px;
+    margin-left: 111px;
+    margin-top: -42px 
+}
+#slider {
+    box-shadow: 1px 2px 3px rgba(214,214,214,1);
+}
+.text-center {
+    box-shadow: 0px 1px 10px;
+    margin-top: 20px;
+}
+.the-loai {
+    box-shadow: -1px 2px 6px;
+    margin-left: -34px;
+    color: black;
+    padding-top: 27px;
+    padding-left: 72px;
+}
+#slider {
+    background-color:#668090;
+}
+.icon-news img {
+    width: 75px;
+    margin-left: 348px;
+    margin-top: -83px;
+}
+#news1 {
+    background-image: url(img/background-hinh-nen-powerpoint-dep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#news1 .img img {
+    width: 268px;
+    border-radius: 20px;
+    margin-top: 111px;
+    margin-left: 73px;
+}
+#news1 .content-lofi .title {
+    font-size: 70px;
+    color: black;
+}
+.content-lofi {
+    margin-top: 95px;
+    padding-left: 20px;
+    line-height: 66px;
+    color: white;
+}
+.music-text {
+    background-image: url(img/lofichild.jpg);
+    width: 786px;
+    height: 297px;
+    background-repeat: no-repeat;
+    border-radius: 19px;
+}
+#news2 .box-content {
+    margin-top: 39px;
+}
+.img-content img {
+    width: 100%;
+}
+.box-lovin {
+    font-size: 12px;
+    padding-left: 9px;
+}
+.play-now {
+    margin-top: 7px;
+    font-size: 25px;
+    margin-left: -5px;
+}
+#music-now-proce {
+    box-shadow: 1px 2px 3px rgb(245,244,201);
+    background: rgb(205,208,150);
+    background: linear-gradient(0deg, rgba(205,208,150,1) 0%, rgba(90,216,187,0.6666316184676996) 100%);
+    margin-top: 20px;
+}
+#news3 .title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    margin-top: 53px;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+#news3 .img-song img {
+    width: 81%;
+    margin-left: -53px;
+    border-radius: 136px;
+    box-shadow: 0px 3px 24px red; 
+    margin-top: 100px;
+    margin-left: 32px;
+}
+#news3 {
+    background: rgb(247,255,222);
+    background: radial-gradient(circle, rgba(247,255,222,0.8823178929775035) 0%, rgb(92 61 223 / 92%) 100%);
+    height: 900px 
+}
+.box-content-name {
+    box-shadow: 0px 6px 23px white;
+    background: rgb(128,158,210);
+    background: linear-gradient(0deg, rgba(128,158,210,1) 0%, rgba(121,255,224,0.6666316184676996) 100%);
+    border-radius: 12px;
+    position: relative;
+    top: -31px;
+}
+
+.img-backgroud img {
+    width: 45%;
+    margin-top: 39px;
+}
+.box-footer {
+    font-weight: bold;
+    margin-left: 77px;
+    margin-top: 44px;
+}
+#footer {
+    background: rgb(128,158,210);
+    background: linear-gradient(0deg, rgba(128,158,210,1) 0%, rgba(255,255,255,0.6666316184676996) 100%);
+}
+#footer .nav li {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+ul.nav li a:hover {
+    color: rgb(222, 14, 14);
+    text-decoration: none;
+}
+ul.nav li a {
+    text-decoration: none;
+    color: black;
+}
+h2.name-song {
+    margin-left: 95px;
+    margin-top: 17px;
+    font-style: italic;
+}
+h2.song-name {
+    margin-left: 86px;
+    padding-top: 8px;
+    font-style: italic;
+}
+h2.song-name1 {
+    margin-left: 134px;
+    padding-top: 15px;
+    font-style: italic;
+}
+h2.name-song2 {
+    margin-left: 154px;
+    padding-top: 9px;
+    font-style: italic;
+}
+h2.song-name3 {
+    margin-left: 113px;
+    padding-top: 12px;
+    font-style: italic;
+}
